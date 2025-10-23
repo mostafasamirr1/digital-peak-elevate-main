@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["digitalpeakeg.site", "localhost", "127.0.0.1"],
   },
   plugins: [react()],
   resolve: {
